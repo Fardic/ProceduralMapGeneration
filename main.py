@@ -35,6 +35,7 @@ rgb[:, :, 1] = g
 rgb[:, :, 2] = b
 
 plt.imshow(rgb/255)
+plt.savefig("testimage.jpg")
 plt.show()
 
 
